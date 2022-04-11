@@ -1,0 +1,568 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "ffe06487-6a32-4e3f-b871-82e0c913b573",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Tactical",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [
+      "keyboard",
+      "gamepad"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Img/Background@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/Background@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/4x/Title name@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/4x/Title name@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/Start@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/Start@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/player1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/player1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/player2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/player2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/Attack@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/Attack@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/Shield@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/Shield@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/Head@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/Head@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/Body@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/Body@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/Legs@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/Legs@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/Win@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/Win@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/life box@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/life box@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TitanOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "TitanOne-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/Heart@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/Heart@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/plaeyr1_def.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/plaeyr1_def.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/enemy_def.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/enemy_def.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/cry1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/cry1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/cry2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/cry2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/attack_b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/attack_b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/enemy_attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/enemy_attack.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/Victory@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/Victory@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/Defeat@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/Defeat@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/box2@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/box2@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/New Game@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/New Game@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/Menu@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/Menu@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/AF@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/AF@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/AS@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/AS@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/DF@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/DF@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/DS@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/DS@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/AF_1@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/AF_1@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/AS_1@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/AS_1@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/DF_1@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/DF_1@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/DS_1@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/DS_1@4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/Asset 41@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/Asset 41@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/box3@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/box3@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/retry@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/retry@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/next@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/next@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Img/4x/menu@4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Img/4x/menu@4x.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "ParkBg",
+      "rightMargin": 0,
+      "tags": "",
+      "texture": "Img/Background@4x.png",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "victory",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Img/Victory@4x.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "defeat",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Img/Defeat@4x.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [
+    {
+      "name": "result",
+      "objects": [
+        {
+          "name": "victory"
+        },
+        {
+          "name": "defeat"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "result",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start_sarah"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/end"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
